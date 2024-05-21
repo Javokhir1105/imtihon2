@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+    position: relative;
+}
+.container{
+    background-color: aqua;
+    width: 700px;
+    margin: 15px auto;
+}
+.container2{
+
+    background-color: aqua;
+    width: 700px;
+    margin: 15px auto;
+
+}
+li{
+    background-color: white;
+    list-style: none;
+}
+ul{
+    background-color: white;
+    box-shadow: 0 5px 5px 5px gray;
+}
+li{
+    display: flex;
+    box-shadow: 0 1px 1px 1px gray;
+   justify-content:space-between ;
+}
+p{
+    margin: 20px 130px;
+}
+.add{
+    position: absolute;
+    left: 400px;
+    top:200px;
+    box-shadow: 0 5px 5px 5px gray;
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: wrap;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+input{
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+}
+.sel{
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+}
+label{
+    margin: 20px;
+}
+.btn{
+    margin: 20px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+}
+.btn2{
+    margin: 20px;
+    color: white;
+    background-color: blue;
+}
