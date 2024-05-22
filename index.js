@@ -47,6 +47,7 @@ fetch("https://autoapi.dezinfeksiyatashkent.uz/api/brands")
     
     btn2.addEventListener('click', (e) => {
         e.preventDefault();
+        modal.style.display = "none";
         fetch("https://autoapi.dezinfeksiyatashkent.uz/api/models", {
             method: "POST",
             body: JSON.stringify({
